@@ -5,9 +5,9 @@ public class Light {
 		
 	}
 	
-	public String on() {
+	public void on() {
 		System.out.println("Turn on lights");
-		return "Turn on Lights";
+		///return "Turn on Lights";
 	}
 	
 	public String off() {

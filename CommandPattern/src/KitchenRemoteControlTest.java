@@ -61,10 +61,11 @@ class KitchenRemoteControlTest {
 		}
 		*/
 		// Unknown how to utilize Junit to test for void methods
-		String result = KitchenRemoteControl.onButtonWasPushed(0);
+		System.out.print("Turn on lights");
+		assertEquals("Turn on lights", kitchenLightOn.toString());
 		
 		
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 
