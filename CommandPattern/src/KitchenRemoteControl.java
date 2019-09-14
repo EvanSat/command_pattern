@@ -1,3 +1,10 @@
+/***
+ * 
+ * CPSC 60000
+ * Programming Assignment #3 - Command Pattern 
+ * @author Evan Sabado
+ *
+ */
 
 public class KitchenRemoteControl {
 
@@ -38,5 +45,4 @@ public class KitchenRemoteControl {
 		return stringBuff.toString();
 	}
 		
-	
 }
