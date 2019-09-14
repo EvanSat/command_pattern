@@ -37,8 +37,6 @@ public class KitchenRemoteControl {
 		}
 		return stringBuff.toString();
 	}
-	
-
-	
+		
 	
 }
