@@ -50,11 +50,15 @@ class KitchenRemoteControlTest {
 		KitchenRemoteControl.setCommand(4, fryerOn, fryerOff);
 		KitchenRemoteControl.setCommand(5, exhaustFanOn, exhaustFanOff);
 		
-		
+		/*
 		KitchenRemoteControl test = new KitchenRemoteControl();
 		String result = test.onButtonWasPushed(2);
 		assertEquals("Turn on lights", result);
+		*/
 		
+		private void method1(KitchenRemoteControl[1]) {
+			if ()
+		}
 		
 		fail("Not yet implemented");
 	}
