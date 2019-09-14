@@ -5,12 +5,14 @@ public class Light {
 		
 	}
 	
-	public void on() {
+	public String on() {
 		System.out.println("Turn on lights");
+		return "Turn on Lights";
 	}
 	
-	public void off() {
-		System.out.println("turn off lights");
+	public String off() {
+		System.out.println("Turn off lights");
+		return "Turn off Lights";
 	}
 
 }

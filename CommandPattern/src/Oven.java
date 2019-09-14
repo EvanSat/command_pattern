@@ -1,11 +1,13 @@
 
 public class Oven {
 
-	public void on() {
+	public String on() {
 		System.out.println("Turn on oven to 325 degrees fahrenheit");
+		return "Turn on oven to 325 degrees fahrenheit"; 
 	}
 	
-	public void off() {
+	public String off() {
 		System.out.println("Turn off oven");
+		return "Turn off oven";
 	}
 }
