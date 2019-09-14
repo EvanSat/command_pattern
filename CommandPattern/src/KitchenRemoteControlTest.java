@@ -8,24 +8,37 @@
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.BeforeClass;
+///import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 
 class KitchenRemoteControlTest {
 
-	private static Light light;
+///	private static Light light;
 	
-	@BeforeClass
+///	@BeforeClass
 /*	public static void testSetUp() {
 		light = new Light();
 	}
 */
 	
 	@Test
-	void lightOnTest() {
-		light.on();
+	public void lightOnTest() {
+		Light kitchenLight = new Light();
+		Oven oven = new Oven();
+		Mixer mixer = new Mixer();
+		WaffleMaker waffleMaker = new WaffleMaker();
+		Fryer fryer = Fryer();
+		ExhaustFan exhaustFan = ExhaustFan();
+		
+		
+		
+		KitchenRemoteControl test = new KitchenRemoteControl();
+		String result = test.onButtonWasPushed(2);
+		assertEquals("Turn on lights", result);
+		
 		
 		fail("Not yet implemented");
 	}
+
 
 }
