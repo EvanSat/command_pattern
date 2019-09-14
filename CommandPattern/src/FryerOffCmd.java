@@ -1,5 +1,5 @@
 
-public class FryerOffCmd {
+public class FryerOffCmd implements Command {
 	
 	Fryer fryer;
 	

@@ -1,5 +1,5 @@
 
-public class KitchenLightOffCmd {
+public class KitchenLightOffCmd implements Command{
 
 	Light light;
 	

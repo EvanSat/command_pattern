@@ -1,5 +1,5 @@
 
-public class FryerOnCmd {
+public class FryerOnCmd implements Command {
 
 	Fryer fryer;
 	

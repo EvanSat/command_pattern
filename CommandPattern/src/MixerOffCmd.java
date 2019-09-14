@@ -1,5 +1,5 @@
 
-public class MixerOffCmd {
+public class MixerOffCmd implements Command {
 	
 	Mixer mixer;
 	

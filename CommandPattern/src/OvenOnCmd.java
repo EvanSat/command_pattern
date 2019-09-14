@@ -1,5 +1,5 @@
 
-public class OvenOnCmd {
+public class OvenOnCmd implements Command {
 
 	Oven oven;
 	

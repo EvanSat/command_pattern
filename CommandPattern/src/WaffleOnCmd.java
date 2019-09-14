@@ -1,5 +1,5 @@
 
-public class WaffleOnCmd {
+public class WaffleOnCmd implements Command {
 
 	WaffleMaker waffleMaker;
 	

@@ -8,8 +8,8 @@
 
 public class KitchenRemoteControl {
 
-	Command[] onCommands;
-	Command[] offCommands;
+	static Command[] onCommands;
+	static Command[] offCommands;
 	
 	public KitchenRemoteControl(){
 		onCommands = new Command[8];
@@ -22,7 +22,7 @@ public class KitchenRemoteControl {
 		}
 	}
 	
-	public void setCommand(int slot, Command onCommand, Command offCommand) {
+	public static void setCommand(int slot, Command onCommand, Command offCommand) {
 		onCommands[slot] = onCommand;
 		offCommands[slot] = offCommand;
 	}
@@ -44,5 +44,6 @@ public class KitchenRemoteControl {
 		}
 		return stringBuff.toString();
 	}
+
 		
 }

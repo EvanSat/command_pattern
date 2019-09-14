@@ -1,5 +1,5 @@
 
-public class ExhaustFanOffCmd {
+public class ExhaustFanOffCmd implements Command{
 	
 	ExhaustFan exhaustFan;
 	
